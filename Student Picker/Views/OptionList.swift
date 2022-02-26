@@ -5,13 +5,14 @@ struct OptionList: View {
     var klass: Klass
     
     var body: some View {
-        NavigationView{
             List{
                 NavigationLink("List all students", destination: ListStudentView(klass: klass))
+                    .padding(.vertical)
                 NavigationLink("Pick a student", destination: PickStudentView(klass: klass))
+                    .padding(.vertical)
             }.navigationTitle("Options")
         }
-    }
+    
 }
 
 struct OptionList_Previews: PreviewProvider {
