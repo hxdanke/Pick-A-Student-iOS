@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct ClassView: View {
+struct PickStudentView: View {
     
     var klass: Klass
     @State var studentName = " "
@@ -30,8 +30,8 @@ struct ClassView: View {
     }
 }
 
-struct ClassView_Previews: PreviewProvider {
+struct PickStudentView_Previews: PreviewProvider {
     static var previews: some View {
-        ClassView(klass: klasses[0])
+        PickStudentView(klass: klasses[0])
     }
 }

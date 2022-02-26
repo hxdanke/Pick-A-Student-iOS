@@ -5,7 +5,7 @@ struct ClassList: View {
         NavigationView {
             List(klasses) { klass in
                 NavigationLink {
-                    ClassView(klass: klass)
+                    OptionList(klass: klass)
                 } label: {
                     ClassRow(klass: klass)
                 }

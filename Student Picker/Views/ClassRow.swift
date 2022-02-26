@@ -10,7 +10,7 @@ struct ClassRow: View {
             Text(klass.classType + klass.classNum)
             Spacer()
         }
-        .padding()
+        .padding(.vertical)
     }
 }
 
