@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "academicYear": 2021,
+        "classType": "Pre-AP",
+        "classNum": "",
+        "studentNameList": ["Jerry","Serina","Bruce","Jenny","Cedric","Suri","Bush","Ariana","Debbie","Benjamin", "Coraline","Angelo","Kevin","Sunny","Valeria","Allen","Steven","Ethan","William","Alex","William Spike","Corrine","Charlie","Eddie","Helen","Coco","Geri"]
+    },
+
+    {
+        "id": 2,
+        "academicYear": 2021,
+        "classType": "PA",
+        "classNum": "5",
+        "studentNameList": ["Mitch","May","Lydia","Rosie","Damian","James","Henry","Amy","Oscar","Lolita","Roger","Maggie","Leo","Michael","Alex","Joy","Ivan","Jack","Justin","Olivia","Levi","Albert","Lucy","Tiffany","Justin Lu","Francesca","Owen","Jenny"]
+    },
+
+    {
+        "id": 3,
+        "academicYear": 2021,
+        "classType": "PA",
+        "classNum": "11",
+        "studentNameList": ["Sally","Astoria","Peter","Richard Chen","Svea","Scarlett","Mindy","Dave","Jerry","Emily","Nancy","Trista","Omen","Effie","Tony","William","Angelina","Jimmy","Lyra","Richard Ran","Eject","Isabella","Irene","Chloe","Steve","Daniel","Ezreal","Flora","Aaron"]
+    }
+]
