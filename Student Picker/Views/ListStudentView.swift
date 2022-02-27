@@ -5,22 +5,10 @@ struct ListStudentView: View {
     var klass: Klass
     
     var body: some View {
-        ScrollView {
-            VStack {
-                ForEach(0..<klass.studentNameList.count) {index in
-                    VStack {
-                        HStack {
-                            Text(klass.studentNameList[index])
-                                .padding(.vertical, 5)
-                                .padding(.leading, 20)
-                            Spacer()
-                        }
-                        Divider()
-                    }
-                }
-            }
+        List(klass.studentNameList, id:\.self){
+            Text($0)
+                .padding(.vertical)
         }
-        .padding(.top, 5)
         .navigationTitle("List of Students")
     }
 }
