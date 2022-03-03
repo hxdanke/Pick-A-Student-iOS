@@ -8,6 +8,7 @@ struct Klass: Hashable, Codable, Identifiable{
     var classType: String
     var classNum: String
     var studentNameList: Array<String>
+    var studentNameList2: Array<String>
     
     func getClassName() -> String {
         return String(academicYear) + " - " + String(academicYear + 1) + " " + classType + classNum
@@ -15,5 +16,9 @@ struct Klass: Hashable, Codable, Identifiable{
     
     func getClassNameShort() -> String{
         return classType + classNum
+    }
+    
+    func getNumOfStudents() -> Int{
+        return studentNameList.count
     }
 }

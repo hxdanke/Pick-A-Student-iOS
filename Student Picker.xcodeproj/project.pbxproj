@@ -20,6 +20,7 @@
 		76AFEEC327C9C155004BF284 /* ClassData.json in Resources */ = {isa = PBXBuildFile; fileRef = 76AFEEC227C9C154004BF284 /* ClassData.json */; };
 		76AFEEC527C9C683004BF284 /* ClassRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AFEEC427C9C683004BF284 /* ClassRow.swift */; };
 		76AFEEC727C9DE18004BF284 /* ClassList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AFEEC627C9DE18004BF284 /* ClassList.swift */; };
+		76EEF29227D0E23700433B38 /* StudentNameRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EEF29127D0E23700433B38 /* StudentNameRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		76AFEEC227C9C154004BF284 /* ClassData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ClassData.json; sourceTree = "<group>"; };
 		76AFEEC427C9C683004BF284 /* ClassRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassRow.swift; sourceTree = "<group>"; };
 		76AFEEC627C9DE18004BF284 /* ClassList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassList.swift; sourceTree = "<group>"; };
+		76EEF29127D0E23700433B38 /* StudentNameRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentNameRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				76AFEEC627C9DE18004BF284 /* ClassList.swift */,
 				7605665127CA3D06005E9A3C /* OptionList.swift */,
 				7605665727CA41EF005E9A3C /* ListStudentView.swift */,
+				76EEF29127D0E23700433B38 /* StudentNameRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				7605665827CA41EF005E9A3C /* ListStudentView.swift in Sources */,
 				767E78E927C7BF7C001E19FC /* Class.swift in Sources */,
 				767E78D027C7B55D001E19FC /* ContentView.swift in Sources */,
+				76EEF29227D0E23700433B38 /* StudentNameRow.swift in Sources */,
 				76AFEEC727C9DE18004BF284 /* ClassList.swift in Sources */,
 				76AFEEC127C9C10D004BF284 /* ModelData.swift in Sources */,
 				76AFEEC527C9C683004BF284 /* ClassRow.swift in Sources */,

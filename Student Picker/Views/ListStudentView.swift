@@ -5,9 +5,10 @@ struct ListStudentView: View {
     var klass: Klass
     
     var body: some View {
-        List(klass.studentNameList, id:\.self){
-            Text($0)
-                .padding(.vertical)
+        List{
+            ForEach(0...klass.getNumOfStudents() - 1, id:\.self){index in
+                StudentNameRow(klass: klasses[klass.id - 1], studentIndex: index)
+            }
         }
         .navigationTitle(klass.getClassNameShort() + " Name List")
     }

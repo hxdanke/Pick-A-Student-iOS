@@ -4,7 +4,8 @@
         "academicYear": 2021,
         "classType": "Pre-AP",
         "classNum": "",
-        "studentNameList": ["Jerry","Serina","Bruce","Jenny","Cedric","Suri","Bush","Ariana","Debbie","Benjamin", "Coraline","Angelo","Kevin","Sunny","Valeria","Allen","Steven","Ethan","William","Alex","William Spike","Corrine","Charlie","Eddie","Helen","Coco","Geri"]
+        "studentNameList": ["Jerry","Serina","Bruce","Jenny","Cedric","Suri","Bush","Ariana","Debbie","Benjamin", "Coraline","Angelo","Kevin","Sunny","Valeria","Allen","Steven","Ethan","William","Alex","William Spike","Corrine","Charlie","Eddie","Helen","Coco","Geri"],
+        "studentNameList2": ["严康豪","冯思瑜","寿珈毅","田偲","徐远航","余思源","袁晨宸","张颖琪","陈祺霖","冯瀚宇","胡诗尧","黄溆子","李孟锴","李孟平","李其萌","邱宸宇","孙宫爵","万宇轩","魏晨宇","杨家昊","杨世博","尹铮","詹子睿","黄笑远","廖含玥","王一可","余子菲"]
     },
 
     {
@@ -12,7 +13,8 @@
         "academicYear": 2021,
         "classType": "PA",
         "classNum": "5",
-        "studentNameList": ["Mitch","May","Lydia","Rosie","Damian","James","Henry","Amy","Oscar","Lolita","Roger","Maggie","Leo","Michael","Alex","Joy","Ivan","Jack","Justin","Olivia","Levi","Albert","Lucy","Tiffany","Justin Lu","Francesca","Owen","Jenny"]
+        "studentNameList":["Mitch","May","Lydia","Rosie","Damian","James","Henry","Amy","Oscar","Lolita","Roger","Maggie","Leo","Michael","Alex","Joy","Ivan","Jack","Justin","Olivia","Levi","Albert","Lucy","Tiffany","Justin","Francesca","Owen","Jenny"],
+        "studentNameList2": ["刘雅璇","丁美璇","付月","郭沛果","匡钟翰","李坤兴","唐嘉","温思茜","徐子诺","张幕尧","朱熠博","邹孟琪","端木几悦","胡名海","蒋万宸","梅晓雨","彭羿鸣","温卓锐","严晨宇","张瑛子","张子超","周雨阳","陈璐希","李祖凡","鲁君玮","瞿孜芹","宋元衡","周珈卉"]
     },
 
     {
@@ -20,6 +22,7 @@
         "academicYear": 2021,
         "classType": "PA",
         "classNum": "11",
-        "studentNameList": ["Sally","Astoria","Peter","Richard Chen","Svea","Scarlett","Mindy","Dave","Jerry","Emily","Nancy","Trista","Omen","Effie","Tony","William","Angelina","Jimmy","Lyra","Richard Ran","Eject","Isabella","Irene","Chloe","Steve","Daniel","Ezreal","Flora","Aaron"]
+        "studentNameList":["Sally","Astoria","Peter","Richard","Svea","Scarlett","Mindy","Dave","Jerry","Emily","Nancy","Trista","Omen","Effie","Tony","William","Angelina","Jimmy","Lyra","Richard","Eject","Isabella","Irene","Chloe","Steve","Daniel","Ezreal","Flora","Aaron"],
+        "studentNameList2": ["Hwang Chaeeun","毕豫洁","蔡映苍","陈彦豪","丁奕靖","杜雨桐","高灵","郭添添","何潇","洪思楠","胡雅珂","胡语溪","黄禹诚","李羽桐","刘康和","刘哲威","娄歆雨","卢俊宇","骆奕萱","冉子睦","王泓力","王芊晗","徐筱诺","杨启雯","游明豪","张嘉祺","张想","张妍钰","赵钰博"]
     }
 ]

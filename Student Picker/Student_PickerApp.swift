@@ -1,10 +1,3 @@
-//
-//  Student_PickerApp.swift
-//  Student Picker
-//
-//  Created by Hang Xue on 2022/2/24.
-//
-
 import SwiftUI
 
 @main
