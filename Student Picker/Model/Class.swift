@@ -9,4 +9,11 @@ struct Klass: Hashable, Codable, Identifiable{
     var classNum: String
     var studentNameList: Array<String>
     
+    func getClassName() -> String {
+        return String(academicYear) + " - " + String(academicYear + 1) + " " + classType + classNum
+    }
+    
+    func getClassNameShort() -> String{
+        return classType + classNum
+    }
 }

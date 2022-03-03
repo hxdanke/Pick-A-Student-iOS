@@ -9,7 +9,7 @@ struct ListStudentView: View {
             Text($0)
                 .padding(.vertical)
         }
-        .navigationTitle("List of Students")
+        .navigationTitle(klass.getClassNameShort() + " Name List")
     }
 }
 

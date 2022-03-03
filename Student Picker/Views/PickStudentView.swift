@@ -7,11 +7,7 @@ struct PickStudentView: View {
         
     var body: some View {
         VStack{
-            Text(String(klass.academicYear) + " - " + String(klass.academicYear + 1))
-                .padding(.top, 150.0)
-                .padding(.bottom, 10.0)
-            Text(klass.classType + klass.classNum)
-                .padding(.bottom, 100.0)
+            Spacer()
             Text(studentName)
                 .font(.largeTitle)
                 .padding(.bottom, 150.0)
@@ -26,7 +22,7 @@ struct PickStudentView: View {
                                 .stroke(Color .black, lineWidth: 1))
             }
             Spacer()
-        }
+        }.navigationTitle("Pick A Student " + klass.getClassNameShort())
     }
 }
 

@@ -1,6 +1,8 @@
 import SwiftUI
 
 struct ClassList: View {
+
+    
     var body: some View {
         NavigationView {
             List(klasses) { klass in
